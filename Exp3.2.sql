@@ -1,1 +1,0 @@
-select name as Customers from customers where id in (select id from customers except select customerId from orders); 
